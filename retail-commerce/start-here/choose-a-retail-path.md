@@ -1,33 +1,33 @@
 ---
-description: "Help customers pick the right Aiden retail documentation path."
+description: "Help klanten het juiste Aiden-retailpad kiezen."
 icon: route
 ---
 
-# Choose a retail path
+# Kies een retailpad
 
-Use this page when you know the business outcome but not the exact Aiden product area.
+Gebruik deze pagina wanneer je de businessuitkomst kent, maar nog niet weet welk Aiden-productgebied je nodig hebt.
 
 <table data-view="cards">
   <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
   <tbody>
-    <tr><td><strong>Run store checkout</strong></td><td>Start with POS login, customers, items, cash procedures, gift cards, and payment completion.</td><td><a href="../workflows/aiden-pos-operations.md">Aiden POS operations</a></td></tr>
-    <tr><td><strong>Manage warehouse movement</strong></td><td>Start with WMS login, definitions, settings, SAP stock conversion, and bin location conversion.</td><td><a href="../workflows/warehouse-and-wms-operations.md">Warehouse and WMS operations</a></td></tr>
-    <tr><td><strong>Extend ecommerce</strong></td><td>Start with Magento templates and commerce setup patterns before connecting fulfillment and POS.</td><td><a href="../commerce/magento-templates.md">Magento templates</a></td></tr>
+    <tr><td><strong>Winkelcheckout uitvoeren</strong></td><td>Start met POS-login, klanten, artikelen, kasprocedures, cadeaubonnen en betalingen.</td><td><a href="../workflows/aiden-pos-operations.md">Aiden POS-operaties</a></td></tr>
+    <tr><td><strong>Warehousebeweging beheren</strong></td><td>Start met WMS-login, definities, instellingen, SAP-voorraadconversie en binlocatieconversie.</td><td><a href="../workflows/warehouse-and-wms-operations.md">Warehouse- en WMS-operaties</a></td></tr>
+    <tr><td><strong>E-commerce uitbreiden</strong></td><td>Start met Magento-templates en koppel daarna fulfillment en POS.</td><td><a href="../commerce/magento-templates.md">Magento-templates</a></td></tr>
   </tbody>
 </table>
 
-## Common starting questions
+## Veelvoorkomende startvragen
 
 {% tabs %}
-{% tab title="Store manager" %}
-Start with POS setup, cash procedures, hardware peripherals, and payment handling.
+{% tab title="Winkelmanager" %}
+Start met POS-setup, kasprocedures, hardware en betaalafhandeling.
 {% endtab %}
 
-{% tab title="Warehouse manager" %}
-Start with WMS definitions, stock conversion, bin location conversion, and scanning workflows.
+{% tab title="Warehousemanager" %}
+Start met WMS-definities, voorraadconversie, binlocatieconversie en scanworkflows.
 {% endtab %}
 
-{% tab title="Commerce admin" %}
-Start with Magento templates, stock and order handoff, and escalation paths for fulfillment exceptions.
+{% tab title="Commerce-admin" %}
+Start met Magento-templates, voorraad- en orderhandoff en escalatiepaden voor fulfillment-uitzonderingen.
 {% endtab %}
 {% endtabs %}

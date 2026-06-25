@@ -1,31 +1,18 @@
 ---
-description: "Aiden Connect integration services explained as a customer journey."
+description: "Aiden Connect helpt klanten applicaties met dezelfde data te laten werken. De demo positioneert integratiediensten als een beheerde operationele laag, niet alleen als connectorlijst."
 icon: diagram-project
 ---
 
-# Integration services
+# Integratiediensten
 
-Aiden Connect helps customers keep applications using the same data across an application landscape. The demo positions integration services as a managed operating layer, not just a list of connectors.
+Aiden Connect helpt klanten applicaties met dezelfde data te laten werken. De demo positioneert integratiediensten als een beheerde operationele laag, niet alleen als connectorlijst.
 
-## Integration lifecycle
+## Aanbevolen controles
 
-```mermaid
-flowchart TD
-    Source[Source system] --> Transform[Transform and validate]
-    Transform --> SAP[SAP Business One or SAP ByDesign]
-    Transform --> Monitor[Integration monitor]
-    Monitor --> Alert[Alert and remediate]
-    Alert --> Improve[Update documentation and runbook]
-```
+- Bevestig de juiste organisatie, omgeving en gebruikerstoegang.
+- Documenteer eigenaar, afhankelijkheden en uitzonderingen.
+- Link terug naar monitoring, notificaties en supportescalatie.
 
-## Example integration topics
-
-- PDF invoice scanning to SAP ByDesign.
-- Exchange rate information for SAP Business One.
-- Exchange rate information for SAP ByDesign.
-- Aiden Connect Peppol.
-- HTTPS prerequisites.
-
-{% hint style="success" %}
-Aiden Connect is a strong place to show GitBook AI answering cross-system questions because the value comes from understanding dependencies across systems.
+{% hint style="info" %}
+Deze pagina is representatief voor de demo. Een volledige migratie kan de exacte Aiden-stappen, screenshots en foutcodes toevoegen.
 {% endhint %}

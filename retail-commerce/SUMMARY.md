@@ -1,19 +1,19 @@
-# Table of contents
+# Inhoudsopgave
 
-* [Retail and commerce apps](README.md)
+* [Brancheoplossingen](README.md)
 
-## Start here
+## Start hier
 
-* [Choose a retail path](start-here/choose-a-retail-path.md)
-* [POS rollout checklist](start-here/pos-rollout-checklist.md)
+* [Kies een retailpad](start-here/choose-a-retail-path.md)
+* [Checklist POS-rollout](start-here/pos-rollout-checklist.md)
 
-## Store and warehouse workflows
+## Winkel- en warehouseworkflows
 
-* [Aiden POS operations](workflows/aiden-pos-operations.md)
-* [Warehouse and WMS operations](workflows/warehouse-and-wms-operations.md)
-* [Proof of Delivery handoff](workflows/proof-of-delivery-handoff.md)
+* [Aiden POS-operaties](workflows/aiden-pos-operations.md)
+* [Warehouse- en WMS-operaties](workflows/warehouse-and-wms-operations.md)
+* [Proof of Delivery-handoff](workflows/proof-of-delivery-handoff.md)
 
-## Commerce extensions
+## Commerce-extensies
 
-* [Magento templates](commerce/magento-templates.md)
-* [Hardware and peripherals](commerce/hardware-and-peripherals.md)
+* [Magento-templates](commerce/magento-templates.md)
+* [Hardware en randapparatuur](commerce/hardware-and-peripherals.md)

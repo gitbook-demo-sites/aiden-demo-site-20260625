@@ -1,37 +1,29 @@
 ---
-description: "Support escalation model for incidents and change requests."
+description: "De bronportal verwijst gebruikers naar een Managed Services portal voor incidenten en wijzigingsverzoeken. In GitBook wordt dat een zichtbare escalatieroute vanuit elke operationele pagina."
 icon: headset
 ---
 
 # Managed Services support
 
-The source portal links users to a Managed Services portal for incidents and change requests. In GitBook, that should become a visible escalation path from every operational page.
-
-## Support decision flow
+De bronportal verwijst gebruikers naar een Managed Services portal voor incidenten en wijzigingsverzoeken. In GitBook wordt dat een zichtbare escalatieroute vanuit elke operationele pagina.
 
 {% stepper %}
 {% step %}
-### Check the relevant workflow page
+### Controleer de relevante workflowpagina
 
-Use product documentation and AI search before raising a ticket.
+Gebruik documentatie en AI-search voordat je een ticket opent.
 {% endstep %}
 
 {% step %}
-### Classify the request
+### Classificeer het verzoek
 
-Decide whether this is an incident, change request, configuration question, or product enhancement.
+Bepaal of dit een incident, wijzigingsverzoek, configuratievraag of productverbetering is.
 {% endstep %}
 
 {% step %}
-### Include operational evidence
+### Voeg operationeel bewijs toe
 
-Add screenshots, timestamps, impacted store or bank connection, SAP environment, and error details.
-{% endstep %}
-
-{% step %}
-### Track resolution and update docs
-
-When a recurring issue is resolved, update the relevant documentation page or release note.
+Voeg screenshots, timestamps, betrokken winkel of bankkoppeling, SAP-omgeving en foutdetails toe.
 {% endstep %}
 {% endstepper %}
 

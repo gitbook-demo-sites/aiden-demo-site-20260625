@@ -1,36 +1,18 @@
 ---
-description: "A representative workflow for managing bank connections."
+description: "Deze workflow helpt finance-admins en consultants om bankkoppelingen voorspelbaar te beheren: prerequisites controleren, koppeling toevoegen, toegang authenticeren en de eerste retrieval monitoren."
 icon: plug
 ---
 
-# Manage bank connections
+# Bankkoppelingen beheren
 
-{% stepper %}
-{% step %}
-### Confirm prerequisites
+Deze workflow helpt finance-admins en consultants om bankkoppelingen voorspelbaar te beheren: prerequisites controleren, koppeling toevoegen, toegang authenticeren en de eerste retrieval monitoren.
 
-Validate the customer organization, SAP environment, user permissions, and bank availability.
-{% endstep %}
+## Aanbevolen controles
 
-{% step %}
-### Add or review a connection
-
-Create the bank connection or review the existing connection status before authentication.
-{% endstep %}
-
-{% step %}
-### Authenticate access
-
-Complete the bank authentication flow and document expiry or renewal expectations.
-{% endstep %}
-
-{% step %}
-### Monitor first retrieval
-
-Run a first retrieval and confirm statement data lands where finance users expect it.
-{% endstep %}
-{% endstepper %}
+- Bevestig de juiste organisatie, omgeving en gebruikerstoegang.
+- Documenteer eigenaar, afhankelijkheden en uitzonderingen.
+- Link terug naar monitoring, notificaties en supportescalatie.
 
 {% hint style="info" %}
-This page is intentionally task-oriented. The source portal splits login, navigation, bank connection management, authentication, retrieval, account, and notifications into separate pages.
+Deze pagina is representatief voor de demo. Een volledige migratie kan de exacte Aiden-stappen, screenshots en foutcodes toevoegen.
 {% endhint %}

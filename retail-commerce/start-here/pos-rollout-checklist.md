@@ -1,42 +1,42 @@
 ---
-description: "A representative rollout checklist for Aiden POS and retail operations."
+description: "Representatieve rollout-checklist voor Aiden POS en retailoperaties."
 icon: list-check
 ---
 
-# POS rollout checklist
+# Checklist POS-rollout
 
 {% stepper %}
 {% step %}
-### Confirm store setup
+### Bevestig winkelconfiguratie
 
-Verify general store settings, specific store settings, tax behavior, receipt output, and local operational defaults.
+Controleer algemene winkelinstellingen, specifieke winkelinstellingen, btw-gedrag, bonoutput en lokale defaults.
 {% endstep %}
 
 {% step %}
-### Configure users and identity
+### Configureer gebruikers en identity
 
-Assign POS users, portal admins, and Microsoft Entra login expectations before training store teams.
+Wijs POS-gebruikers, portalbeheerders en Microsoft Entra-verwachtingen toe voordat teams worden getraind.
 {% endstep %}
 
 {% step %}
-### Validate hardware
+### Valideer hardware
 
-Check barcode scanner behavior, signature pad support, printer flow, and payment terminal readiness.
+Controleer barcode scanners, signature pad, printerflow en betaalterminalgereedheid.
 {% endstep %}
 
 {% step %}
-### Rehearse transaction paths
+### Oefen transactieflows
 
-Run customer selection, item selection, pause/resume, finishing, gift card, cash procedure, and attachment scenarios.
+Test klantselectie, artikelkeuze, pauzeren/hervatten, afronden, cadeaubonnen, kasprocedures en bijlagen.
 {% endstep %}
 
 {% step %}
-### Connect finance handoff
+### Koppel finance-handoff
 
-Confirm reconciliation expectations with Bank Connectivity and SAP data ownership.
+Bevestig reconciliatieverwachtingen met Bank Connectivity en SAP-dataeigenaarschap.
 {% endstep %}
 {% endstepper %}
 
 {% hint style="warning" %}
-Treat this as a demo checklist. A production rollout should use Aiden's exact implementation plan and customer-specific SAP configuration.
+Behandel dit als demo-checklist. Een productierollout moet Aidens exacte implementatieplan en klantspecifieke SAP-configuratie volgen.
 {% endhint %}

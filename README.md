@@ -1,3 +1,3 @@
-# Aiden demo documentation hub
+# Aiden demo-documentatiehub
 
-Source for the first-draft Aiden GitBook demo site. Each top-level folder is a separate GitBook space imported into the Aiden GitBook org.
+Bronbestanden voor de eerste Aiden GitBook demo-site. Elke hoofdmap is een aparte GitBook space die in de Aiden-organisatie wordt geimporteerd.

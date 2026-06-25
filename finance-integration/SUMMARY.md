@@ -1,20 +1,20 @@
-# Table of contents
+# Inhoudsopgave
 
-* [Finance and integration](README.md)
+* [Integratieplatformen](README.md)
 
 ## Bank Connectivity
 
-* [Bank Connectivity overview](bank-connectivity/overview.md)
-* [Manage bank connections](bank-connectivity/manage-bank-connections.md)
-* [Retrieve bank statements](bank-connectivity/retrieve-bank-statements.md)
+* [Overzicht Bank Connectivity](bank-connectivity/overview.md)
+* [Bankkoppelingen beheren](bank-connectivity/manage-bank-connections.md)
+* [Bankafschriften ophalen](bank-connectivity/retrieve-bank-statements.md)
 
 ## Aiden Connect
 
-* [Integration services](aiden-connect/integration-services.md)
-* [Standard integrations](aiden-connect/standard-integrations.md)
+* [Integratiediensten](aiden-connect/integration-services.md)
+* [Standaardintegraties](aiden-connect/standard-integrations.md)
 * [Integration monitor](aiden-connect/integration-monitor.md)
 
 ## Controls
 
-* [Prerequisites and security](controls/prerequisites-and-security.md)
-* [Notifications and releases](controls/notifications-and-releases.md)
+* [Prerequisites en security](controls/prerequisites-and-security.md)
+* [Notificaties en releases](controls/notifications-and-releases.md)

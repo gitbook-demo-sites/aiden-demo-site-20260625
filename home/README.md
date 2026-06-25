@@ -1,5 +1,5 @@
 ---
-description: "A modern GitBook front door for Aiden's retail, finance, integration, and SAP platform documentation."
+description: "Een moderne GitBook-startpagina voor Aiden-documentatie rond retail, finance, integraties en SAP-platformbeheer."
 icon: house
 cover: .gitbook/assets/aiden-cover.svg
 coverY: 0
@@ -13,31 +13,31 @@ layout:
   description:
     visible: true
   tableOfContents:
-    visible: false
+    visible: true
   outline:
-    visible: false
+    visible: true
   pagination:
     visible: true
 ---
 
-# Aiden Documentation Hub
+# Aiden Documentatiehub
 
 {% columns %}
 {% column width="58%" %}
-Aiden's current portal spans retail point of sale, warehouse operations, bank connectivity, integration services, Magento templates, and B1ProSuite platform material. This demo keeps that product breadth, but routes visitors by the work they are trying to complete instead of asking them to pick from many separate Confluence spaces.
+De huidige Aiden-portal bevat documentatie voor point of sale, warehouse operations, bankkoppelingen, integratiediensten, Magento-templates en het B1ProSuite-platform. Deze demo behoudt die productbreedte, maar helpt bezoekers eerst kiezen op basis van het werk dat ze willen doen.
 
-<a class="button primary" href="https://docs.aiden.eu/">Original portal</a>
+<a class="button primary" href="https://docs.aiden.eu/">Huidige portal</a>
 <a class="button secondary" href="https://www.aiden.eu/">Aiden website</a>
 
-<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask the Aiden docs</button>
-<button type="button" class="button secondary" data-action="ask" data-query="Which Aiden product should I start with for a retail rollout?" data-icon="store">Choose a product path</button> <button type="button" class="button secondary" data-action="ask" data-query="How do I connect SAP, banking, and operational workflows with Aiden?" data-icon="diagram-project">Map integrations</button>
+<button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Vraag het aan de Aiden docs</button>
+<button type="button" class="button secondary" data-action="ask" data-query="Met welk Aiden-product start ik voor een retail-rollout?" data-icon="store">Kies een productpad</button> <button type="button" class="button secondary" data-action="ask" data-query="Hoe verbind ik SAP, bankkoppelingen en operationele workflows met Aiden?" data-icon="diagram-project">Breng integraties in kaart</button>
 {% endcolumn %}
 
 {% column width="42%" %}
 {% hint style="success" icon="circle-info" %}
-**Demo thesis**
+**Demo-these**
 
-GitBook can give Aiden one clearer documentation system for customers, partners, and consultants while preserving the current product-specific depth from Confluence.
+GitBook kan Aiden een duidelijker documentatiesysteem geven voor klanten, partners en consultants, zonder de bestaande productdiepte uit Confluence kwijt te raken.
 {% endhint %}
 {% endcolumn %}
 {% endcolumns %}
@@ -49,39 +49,39 @@ GitBook can give Aiden one clearer documentation system for customers, partners,
   <tbody>
     <tr>
       <td><i class="fa-store" style="color:#0E8F72;"></i></td>
-      <td><strong>Retail and commerce apps</strong></td>
-      <td>Aiden POS, RetailPro, WarehousePro, WMS, Proof of Delivery, and Magento templates.</td>
-      <td><a href="https://app.gitbook.com/s/DqwSjKc1rZNdT5YoYuSf/">retail workflows</a></td>
+      <td><strong>Brancheoplossingen</strong></td>
+      <td>Aiden POS, RetailPro, WarehousePro, WMS, Proof of Delivery en Magento-templates.</td>
+      <td><a href="https://app.gitbook.com/s/DqwSjKc1rZNdT5YoYuSf/">retailworkflows</a></td>
     </tr>
     <tr>
       <td><i class="fa-building-columns" style="color:#0E8F72;"></i></td>
-      <td><strong>Finance and integration</strong></td>
-      <td>Bank Connectivity, Aiden Connect, payment workflows, SAP integration, Peppol, and monitored data flows.</td>
-      <td><a href="https://app.gitbook.com/s/Y7rFrXdON9rXdRex3MXE/">finance and integration</a></td>
+      <td><strong>Integratieplatformen</strong></td>
+      <td>Bank Connectivity, Aiden Connect, betaalstromen, SAP-integratie, Peppol en gemonitorde datastromen.</td>
+      <td><a href="https://app.gitbook.com/s/Y7rFrXdON9rXdRex3MXE/">finance en integratie</a></td>
     </tr>
     <tr>
       <td><i class="fa-gears" style="color:#0E8F72;"></i></td>
-      <td><strong>Platform operations</strong></td>
-      <td>B1ProSuite setup, identity, user management, support escalation, releases, and governance model.</td>
-      <td><a href="https://app.gitbook.com/s/PG5nc9B9vXjvJ34jaotJ/">platform operations</a></td>
+      <td><strong>B1ProSuite</strong></td>
+      <td>Installatie, configuratie, identity, gebruikersbeheer, support, releases en governance.</td>
+      <td><a href="https://app.gitbook.com/s/PG5nc9B9vXjvJ34jaotJ/">platformbeheer</a></td>
     </tr>
   </tbody>
 </table>
 
-## A better route through the same product family
+## Een betere route door dezelfde productfamilie
 
 ```mermaid
 flowchart LR
-    Explore[Find the right product] --> Configure[Configure SAP and users]
-    Configure --> Operate[Run store, warehouse, finance, or delivery workflows]
-    Operate --> Monitor[Monitor integrations and exceptions]
-    Monitor --> Support[Raise incidents or change requests]
-    Support --> Improve[Publish updated guidance and release notes]
+    Explore[Vind het juiste product] --> Configure[Configureer SAP en gebruikers]
+    Configure --> Operate[Voer winkel-, warehouse-, finance- of delivery-workflows uit]
+    Operate --> Monitor[Monitor integraties en uitzonderingen]
+    Monitor --> Support[Maak incidenten of wijzigingsverzoeken aan]
+    Support --> Improve[Publiceer updates en release notes]
 ```
 
-## What this first draft shows
+## Wat deze demo laat zien
 
-- A unified landing page that explains the portfolio before splitting into product-specific tasks.
-- Cleaner space boundaries for commercial demos: retail operations, finance/integration, and platform operations.
-- GitBook-native cards, hints, steppers, tabs, Mermaid diagrams, and AI prompts so the demo feels materially different from a flat Confluence portal.
-- A migration path where Aiden can keep product teams owning their spaces while customers experience one connected documentation portal.
+- Een centrale startpagina die het portfolio uitlegt voordat bezoekers naar producttaken gaan.
+- Een duidelijke sectiegroep `Productgebieden` met drie routes die aansluiten op de huidige portal: Brancheoplossingen, Integratieplatformen en B1ProSuite.
+- GitBook-native cards, hints, steppers, tabs, Mermaid-diagrammen en AI-prompts.
+- Een migratiepad waarbij Aiden productteams eigenaar laat blijven van hun content, terwijl klanten een verbonden documentatie-ervaring krijgen.

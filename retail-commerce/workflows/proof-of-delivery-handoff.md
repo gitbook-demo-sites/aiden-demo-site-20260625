@@ -1,34 +1,34 @@
 ---
-description: "How Proof of Delivery fits into the retail and warehouse journey."
+description: "Hoe Proof of Delivery past in retail- en warehouseprocessen."
 icon: truck
 ---
 
-# Proof of Delivery handoff
+# Proof of Delivery-handoff
 
-Proof of Delivery belongs in the same customer journey as order capture, warehouse execution, and exception handling. In GitBook, it can be positioned as the final operational mile instead of a disconnected product tile.
+Proof of Delivery hoort in dezelfde klantreis als ordervastlegging, warehouse-uitvoering en exception handling. In GitBook kan dit worden gepositioneerd als de laatste operationele stap in plaats van als losse producttegel.
 
-## Handoff model
+## Handoff-model
 
 ```mermaid
 sequenceDiagram
-    participant POS as Store or order source
-    participant WMS as Warehouse flow
+    participant POS as Winkel of orderbron
+    participant WMS as Warehouseflow
     participant POD as Proof of Delivery
     participant Support as Managed Services
-    POS->>WMS: Reserve or prepare goods
-    WMS->>POD: Create delivery task
-    POD->>POD: Capture delivery status and evidence
-    POD->>Support: Escalate exception or change request
+    POS->>WMS: Reserveer of bereid goederen voor
+    WMS->>POD: Maak delivery task aan
+    POD->>POD: Leg status en bewijs vast
+    POD->>Support: Escaleer uitzondering of wijzigingsverzoek
 ```
 
-## Recommended page set
+## Aanbevolen paginaset
 
-- Delivery task lifecycle.
-- Driver or field-user workflow.
-- Evidence capture and attachment rules.
-- Failed delivery or customer-unavailable handling.
-- Operational reporting and exception review.
+- Lifecycle van delivery tasks.
+- Workflow voor chauffeur of field user.
+- Bewijsvastlegging en regels voor bijlagen.
+- Afhandeling van mislukte levering of afwezige klant.
+- Operationele rapportage en exception review.
 
 {% hint style="info" %}
-The current portal exposes Proof of Delivery as its own B1ProSuite product tile. The demo nests it in the retail operating flow so customer journeys are easier to explain.
+De huidige portal toont Proof of Delivery als eigen B1ProSuite-producttegel. De demo plaatst het in de retail-operatieflow zodat klantreizen makkelijker uit te leggen zijn.
 {% endhint %}

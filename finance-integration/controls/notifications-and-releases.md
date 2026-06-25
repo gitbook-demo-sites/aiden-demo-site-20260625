@@ -1,29 +1,18 @@
 ---
-description: "Notifications and release notes model for finance and integration workflows."
+description: "Finance- en integratiegebruikers hebben een voorspelbare plek nodig voor wijzigingen die businessprocessen raken."
 icon: bell
 ---
 
-# Notifications and releases
+# Notificaties en releases
 
-Finance and integration users need a predictable place for changes that affect business operations.
+Finance- en integratiegebruikers hebben een voorspelbare plek nodig voor wijzigingen die businessprocessen raken.
 
-{% updates %}
-{% update date="2026-06-25" tags="demo" %}
-### Demo release note model
+## Aanbevolen controles
 
-Use GitBook Updates for release-style communications instead of long dated pages. Each update can link back to the affected bank connection, integration, or platform setup page.
-{% endupdate %}
+- Bevestig de juiste organisatie, omgeving en gebruikerstoegang.
+- Documenteer eigenaar, afhankelijkheden en uitzonderingen.
+- Link terug naar monitoring, notificaties en supportescalatie.
 
-{% update date="2026-06-12" tags="integration" %}
-### Integration monitor runbook added
-
-Example release entry for a new monitoring workflow, including owner, impacted systems, and rollback guidance.
-{% endupdate %}
-{% endupdates %}
-
-## Notification guidance
-
-- Explain who receives notifications.
-- Document which notifications require action.
-- Link notifications to troubleshooting or support pages.
-- Keep release notes close to the affected workflow.
+{% hint style="info" %}
+Deze pagina is representatief voor de demo. Een volledige migratie kan de exacte Aiden-stappen, screenshots en foutcodes toevoegen.
+{% endhint %}

@@ -1,38 +1,19 @@
 ---
-description: "Representative B1ProSuite installation and update flow."
+description: "Een representatieve installatieflow voor B1ProSuite: prerequisites controleren, platform installeren, eerste start valideren, licentie registreren en database-driver toevoegen."
 icon: download
 ---
 
-# Install or update
+# Installeren of updaten
 
-{% stepper %}
-{% step %}
-### Review pre-requirements
+Een representatieve installatieflow voor B1ProSuite: prerequisites controleren, platform installeren, eerste start valideren, licentie registreren en database-driver toevoegen.
 
-Confirm infrastructure, SAP dependencies, access rights, and customer environment details.
-{% endstep %}
+## Aanbevolen inhoud
 
-{% step %}
-### Install the platform
+- Prerequisites en eigenaar van de configuratie.
+- Stapsgewijze setup of beheeractie.
+- Validatie na wijziging.
+- Support- en rollbackpad wanneer iets niet werkt.
 
-Install or update B1ProSuite Software Platform using the approved package and implementation runbook.
-{% endstep %}
-
-{% step %}
-### Complete first start
-
-Validate services, initial configuration, and platform availability.
-{% endstep %}
-
-{% step %}
-### Register license
-
-Register with the License Server and confirm the customer entitlement model.
-{% endstep %}
-
-{% step %}
-### Add database driver
-
-Create the SAP HANA database driver required for the target environment.
-{% endstep %}
-{% endstepper %}
+{% hint style="info" %}
+Gebruik deze pagina als demo-shape. Een volledige migratie kan de exacte Aiden-stappen en screenshots toevoegen.
+{% endhint %}

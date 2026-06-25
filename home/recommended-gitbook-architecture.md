@@ -1,43 +1,43 @@
 ---
-description: "Suggested GitBook structure for Aiden's current documentation portal."
+description: "Voorgestelde GitBook-structuur voor de huidige Aiden-documentatieportal."
 icon: sitemap
 ---
 
-# Recommended GitBook architecture
+# Aanbevolen GitBook-architectuur
 
-Aiden's source portal is organized by product spaces. That makes sense internally, but it asks customers to understand the whole portfolio before finding the right task. The demo keeps product ownership intact while presenting fewer, clearer top-level routes.
+De huidige Aiden-portal is georganiseerd rond productspaces. Dat is logisch voor interne eigenaarschap, maar klanten moeten daardoor eerst het hele portfolio begrijpen. Deze demo houdt producteigenaarschap intact en presenteert minder, duidelijkere routes.
 
 <table data-view="cards">
   <thead><tr><th width="42"></th><th></th><th></th></tr></thead>
   <tbody>
-    <tr><td><i class="fa-store" style="color:#0E8F72;"></i></td><td><strong>Retail and Commerce Apps</strong></td><td>One space for Aiden POS, RetailPro, WMS, WarehousePro, Proof of Delivery, and Magento commerce guidance.</td></tr>
-    <tr><td><i class="fa-building-columns" style="color:#0E8F72;"></i></td><td><strong>Finance and Integration</strong></td><td>One space for Bank Connectivity, Aiden Connect, payments, SAP integration patterns, and monitored data flows.</td></tr>
-    <tr><td><i class="fa-gears" style="color:#0E8F72;"></i></td><td><strong>Platform Operations</strong></td><td>One space for B1ProSuite, identity, releases, support, and operational governance.</td></tr>
+    <tr><td><i class="fa-store" style="color:#0E8F72;"></i></td><td><strong>Brancheoplossingen</strong></td><td>Een route voor Aiden POS, RetailPro, WMS, WarehousePro, Proof of Delivery en Magento-commerce.</td></tr>
+    <tr><td><i class="fa-building-columns" style="color:#0E8F72;"></i></td><td><strong>Integratieplatformen</strong></td><td>Een route voor Bank Connectivity, Aiden Connect, betaalstromen, SAP-koppelingen en gemonitorde datastromen.</td></tr>
+    <tr><td><i class="fa-gears" style="color:#0E8F72;"></i></td><td><strong>B1ProSuite</strong></td><td>Een route voor B1ProSuite, identity, releases, support en operationele governance.</td></tr>
   </tbody>
 </table>
 
-## Why this structure works
+## Waarom deze structuur werkt
 
 {% hint style="info" %}
-The goal is not to hide Aiden's product breadth. It is to make the first click easier and then preserve product-level detail inside each space.
+Het doel is niet om Aidens productbreedte te verbergen. Het doel is om de eerste klik eenvoudiger te maken en daarna productdetails te behouden.
 {% endhint %}
 
-- Customers can start with their operating goal: run retail, connect finance systems, or administer the platform.
-- Product teams still get clear ownership because pages can be grouped under product-specific sections inside each space.
-- GitBook AI has a cleaner graph for answering cross-product questions like POS to bank reconciliation, warehouse to delivery handoff, or SAP identity setup.
-- Future adaptive content can show implementation partners deeper technical setup while showing customer admins simpler workflow pages.
+- Klanten starten met hun operationele doel: retail uitvoeren, financiele systemen koppelen of het platform beheren.
+- Productteams houden duidelijke eigenaarschap, omdat pagina's binnen elke space per productgebied kunnen worden gegroepeerd.
+- GitBook AI krijgt een schonere contentgraph voor vragen over POS naar bankreconciliatie, warehouse naar delivery of SAP-identity setup.
+- Later kan adaptive content diepere implementatiepagina's tonen aan partners en eenvoudigere workflowpagina's aan customer admins.
 
-## Suggested ownership model
+## Voorgesteld eigenaarschap
 
 ```mermaid
 flowchart TD
-    DocsHub[Aiden Documentation Hub] --> Retail[Retail and Commerce Apps]
-    DocsHub --> Finance[Finance and Integration]
-    DocsHub --> Platform[Platform Operations]
+    DocsHub[Aiden Documentatiehub] --> Retail[Brancheoplossingen]
+    DocsHub --> Finance[Integratieplatformen]
+    DocsHub --> Platform[B1ProSuite]
     Retail --> POS[Aiden POS]
-    Retail --> WMS[Aiden WMS and WarehousePro]
+    Retail --> WMS[Aiden WMS en WarehousePro]
     Finance --> Bank[Bank Connectivity]
     Finance --> Connect[Aiden Connect]
     Platform --> B1[B1ProSuite]
-    Platform --> Support[Support and releases]
+    Platform --> Support[Support en releases]
 ```

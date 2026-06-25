@@ -1,6 +1,6 @@
-# Table of contents
+# Inhoudsopgave
 
-* [Aiden documentation hub](README.md)
-* [Recommended GitBook architecture](recommended-gitbook-architecture.md)
-* [Source portal model](source-portal-model.md)
-* [Demo review notes](demo-review-notes.md)
+* [Aiden documentatiehub](README.md)
+* [Aanbevolen GitBook-architectuur](recommended-gitbook-architecture.md)
+* [Model van de huidige portal](source-portal-model.md)
+* [Reviewnotities demo](demo-review-notes.md)

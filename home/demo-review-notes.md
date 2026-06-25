@@ -1,25 +1,22 @@
 ---
-description: "Review notes for the Aiden GitBook demo draft."
+description: "Reviewnotities voor de Aiden GitBook-demo."
 icon: clipboard-check
 ---
 
-# Demo review notes
+# Reviewnotities demo
 
-## Created in this first pass
+## Aangepast in deze feedbackronde
 
-- Four GitBook spaces: Home, Retail and Commerce Apps, Finance and Integration, and Platform Operations.
-- A site structure that maps Aiden's current portal into clearer customer routes.
-- Authored anchor pages for POS, WMS, Bank Connectivity, Aiden Connect, B1ProSuite, identity, support, and release communication.
-- Cross-space links from the home page into the three workstream spaces.
+- De space-landingspagina's tonen de inhoudsopgave/navigatie weer in plaats van die te verbergen.
+- De content is naar Nederlands vertaald.
+- De site-navigatie is georganiseerd met een sectiegroep `Productgebieden`, met daaronder Brancheoplossingen, Integratieplatformen en B1ProSuite.
 
-## Best places for feedback
+## Beste plekken voor feedback
 
-- Whether the three-space model is the right balance, or if Aiden should split Retail and Warehouse into separate top-level spaces.
-- Which product should be used as the strongest live demo path: POS, Bank Connectivity, or Aiden Connect.
-- Whether implementation partners need a separate adaptive view with deeper SAP setup and integration prerequisites.
-
-## Known limits
+- Of de drie groepen precies aansluiten op de manier waarop Aiden het portfolio wil uitleggen.
+- Welk product het sterkste live demopad moet zijn: POS, Bank Connectivity of Aiden Connect.
+- Of implementatiepartners een aparte adaptive view nodig hebben met diepere SAP-setup en integratievoorwaarden.
 
 {% hint style="warning" %}
-This is a representative demo, not a complete migration. The long-tail Confluence articles should be imported or converted after Aiden confirms the target information architecture.
+Dit is een representatieve demo, geen volledige migratie. De long-tail Confluence-artikelen kunnen later worden geimporteerd of geconverteerd zodra Aiden de doelstructuur bevestigt.
 {% endhint %}

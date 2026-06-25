@@ -1,19 +1,18 @@
 ---
-description: "How integration monitoring should be presented in GitBook."
+description: "De integration monitor moet de operationele plek zijn om te controleren of datastromen gezond zijn en wat er moet gebeuren als dat niet zo is."
 icon: chart-line
 ---
 
 # Integration monitor
 
-The integration monitor should become the operational home for checking whether data flows are healthy and what to do when they are not.
+De integration monitor moet de operationele plek zijn om te controleren of datastromen gezond zijn en wat er moet gebeuren als dat niet zo is.
 
-## Monitoring questions GitBook AI should answer
+## Aanbevolen controles
 
-- Which integration failed and when did it last succeed?
-- Is the failure caused by authentication, mapping, source data, or target-system availability?
-- Who owns remediation: the customer, Aiden, the bank, SAP, or an implementation partner?
-- Which article explains the same integration's setup and prerequisites?
+- Bevestig de juiste organisatie, omgeving en gebruikerstoegang.
+- Documenteer eigenaar, afhankelijkheden en uitzonderingen.
+- Link terug naar monitoring, notificaties en supportescalatie.
 
 {% hint style="info" %}
-For a full migration, connect monitor error codes to exact troubleshooting pages and support escalation templates.
+Deze pagina is representatief voor de demo. Een volledige migratie kan de exacte Aiden-stappen, screenshots en foutcodes toevoegen.
 {% endhint %}

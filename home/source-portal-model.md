@@ -1,50 +1,50 @@
 ---
-description: "How the current docs.aiden.eu portal was translated into this demo."
+description: "Hoe docs.aiden.eu is vertaald naar deze demo."
 icon: diagram-project
 ---
 
-# Source portal model
+# Model van de huidige portal
 
-The current Aiden portal is powered by Scroll Viewport and Atlassian Confluence. The public homepage presents three broad buckets: Industry Solutions, Integration Platforms, and B1 ProSuite.
+De huidige Aiden-portal draait op Scroll Viewport en Atlassian Confluence. De publieke homepage presenteert drie hoofdgebieden: Industry Solutions, Integration Platforms en B1 ProSuite.
 
-## Source spaces observed
+## Geobserveerde bronspaces
 
-| Source area | Source path | Demo destination |
+| Brongedeelte | Bronpad | Bestemming in demo |
 | --- | --- | --- |
-| Aiden POS | `/aidenpos/` | Retail and Commerce Apps |
-| Bank Connectivity | `/bankconnectivity/` | Finance and Integration |
-| Aiden WMS | `/aidenwms/` | Retail and Commerce Apps |
-| Aiden Templates for Magento | `/atfm/` | Retail and Commerce Apps |
-| Aiden Connect | `/aip/` | Finance and Integration |
-| B1ProSuite Platform | `/b1prosuiteplatform/` | Platform Operations |
-| RetailPro | `/retailpro/` | Retail and Commerce Apps |
-| WarehousePro | `/warehousepro/` | Retail and Commerce Apps |
-| Proof of Delivery | `/pod/` | Retail and Commerce Apps |
+| Aiden POS | `/aidenpos/` | Brancheoplossingen |
+| Bank Connectivity | `/bankconnectivity/` | Integratieplatformen |
+| Aiden WMS | `/aidenwms/` | Brancheoplossingen |
+| Aiden Templates for Magento | `/atfm/` | Brancheoplossingen |
+| Aiden Connect | `/aip/` | Integratieplatformen |
+| B1ProSuite Platform | `/b1prosuiteplatform/` | B1ProSuite |
+| RetailPro | `/retailpro/` | Brancheoplossingen |
+| WarehousePro | `/warehousepro/` | Brancheoplossingen |
+| Proof of Delivery | `/pod/` | Brancheoplossingen |
 
-## What changed
+## Wat is veranderd
 
 {% stepper %}
 {% step %}
-### Consolidated the first click
+### De eerste klik is geconsolideerd
 
-The demo uses three top-level product routes instead of nine product tiles.
+De demo gebruikt drie sectiegroepen in plaats van negen losse producttegels.
 {% endstep %}
 
 {% step %}
-### Rebuilt anchor pages
+### Anchor pages zijn herschreven
 
-Each space has authored landing pages, route cards, and core workflows rather than a raw page scrape.
+Elke space heeft Nederlandse landingspagina's, routekaarten en kernworkflows in plaats van een ruwe scrape.
 {% endstep %}
 
 {% step %}
-### Added GitBook-native interaction
+### GitBook-native interactie is toegevoegd
 
-Cards, hints, steppers, tabs, diagrams, and AI prompts make the demo easier to navigate and better suited for assistant answers.
+Cards, hints, steppers, tabs, diagrammen en AI-prompts maken de demo beter navigeerbaar.
 {% endstep %}
 {% endstepper %}
 
-## Assumptions
+## Aannames
 
-- Aiden wants to preserve the current product taxonomy but reduce customer-facing fragmentation.
-- The demo should show a representative first draft, not a full migration of every Confluence article.
-- Product teams would likely continue owning product-specific pages while a central documentation owner governs navigation and shared standards.
+- Aiden wil de huidige producttaxonomie behouden, maar klantgerichte fragmentatie verminderen.
+- De demo moet een representatieve eerste versie zijn, geen volledige migratie van elke Confluence-pagina.
+- Productteams blijven waarschijnlijk eigenaar van productspecifieke pagina's, terwijl een centrale documentatie-eigenaar navigatie en standaarden bewaakt.

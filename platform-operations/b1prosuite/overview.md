@@ -1,25 +1,19 @@
 ---
-description: "B1ProSuite platform overview for implementation and operations teams."
+description: "B1ProSuite is de platformlaag achter meerdere Aiden-producten. In de demo wordt B1ProSuite gepositioneerd als implementatie- en beheerpad, niet als losse producttegel."
 icon: server
 ---
 
-# B1ProSuite overview
+# Overzicht B1ProSuite
 
-B1ProSuite is the platform layer behind several Aiden products. In the demo, B1ProSuite documentation is positioned as an implementation and operations path rather than a standalone product tile.
+B1ProSuite is de platformlaag achter meerdere Aiden-producten. In de demo wordt B1ProSuite gepositioneerd als implementatie- en beheerpad, niet als losse producttegel.
 
-## Core documentation areas
+## Aanbevolen inhoud
 
-- Pre-requirements.
-- Install B1ProSuite Software Platform.
-- First start of B1ProSuite Software Platform.
-- Register with License Server.
-- Create new SAP HANA database driver.
-- Configure IP communication ports.
-- Configure Web Server.
-- Import SAPUI5 framework.
-- Create users.
-- Trial license.
+- Prerequisites en eigenaar van de configuratie.
+- Stapsgewijze setup of beheeractie.
+- Validatie na wijziging.
+- Support- en rollbackpad wanneer iets niet werkt.
 
 {% hint style="info" %}
-This is a good candidate for partner-only adaptive content: implementation partners likely need deeper setup detail than customer admins.
+Gebruik deze pagina als demo-shape. Een volledige migratie kan de exacte Aiden-stappen en screenshots toevoegen.
 {% endhint %}

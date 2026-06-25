@@ -1,32 +1,32 @@
 ---
-description: "Commerce template guidance for Aiden Templates for Magento."
+description: "Commerce-templategids voor Aiden Templates for Magento."
 icon: bag-shopping
 ---
 
-# Magento templates
+# Magento-templates
 
-Aiden Templates for Magento should help commerce admins understand which template to use, how data moves into SAP or retail systems, and where operational exceptions are resolved.
+Aiden Templates for Magento moeten commerce-admins helpen kiezen welke template ze nodig hebben, hoe data naar SAP of retailprocessen stroomt en waar operationele uitzonderingen worden opgelost.
 
-## Page pattern
+## Paginapatroon
 
 {% tabs %}
-{% tab title="Commerce admin" %}
-Focus on catalog, checkout, order, and fulfillment template configuration.
+{% tab title="Commerce-admin" %}
+Focus op catalogus, checkout, orders en fulfillment-templateconfiguratie.
 {% endtab %}
 
-{% tab title="Implementation partner" %}
-Focus on dependencies, extension points, SAP integration assumptions, and release testing.
+{% tab title="Implementatiepartner" %}
+Focus op afhankelijkheden, extensiepunten, SAP-aannames en releasetesten.
 {% endtab %}
 
 {% tab title="Support" %}
-Focus on recurring customer questions, sync failures, and escalation paths.
+Focus op terugkerende klantvragen, sync-fouten en escalatiepaden.
 {% endtab %}
 {% endtabs %}
 
-## Suggested child pages
+## Aanbevolen child pages
 
-- Template selection and prerequisites.
-- Order and customer data mapping.
-- Stock and fulfillment synchronization.
-- Common Magento rollout checks.
-- Troubleshooting and support escalation.
+- Templateselectie en prerequisites.
+- Order- en klantdatamapping.
+- Voorraad- en fulfillmentsynchronisatie.
+- Veelvoorkomende Magento-rolloutchecks.
+- Troubleshooting en supportescalatie.

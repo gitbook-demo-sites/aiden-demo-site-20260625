@@ -1,20 +1,19 @@
 ---
-description: "Configuration model for B1ProSuite platform operations."
+description: "Na installatie hebben beheerders duidelijke pagina's nodig voor poorten, webservergedrag, SAPUI5-frameworkimport en gebruikerscreatie."
 icon: sliders
 ---
 
-# Configure the platform
+# Platform configureren
 
-After installation, administrators need clear configuration pages for ports, web server behavior, SAPUI5 framework import, and user creation.
+Na installatie hebben beheerders duidelijke pagina's nodig voor poorten, webservergedrag, SAPUI5-frameworkimport en gebruikerscreatie.
 
-## Configuration areas
+## Aanbevolen inhoud
 
-<table data-view="cards">
-  <thead><tr><th></th><th></th></tr></thead>
-  <tbody>
-    <tr><td><strong>IP communication ports</strong></td><td>Document required ports, customer firewall ownership, and validation checks.</td></tr>
-    <tr><td><strong>Web server</strong></td><td>Show configuration, certificate assumptions, and operational restart guidance.</td></tr>
-    <tr><td><strong>SAPUI5 framework</strong></td><td>Explain import prerequisites and how to verify the UI framework is available.</td></tr>
-    <tr><td><strong>Users</strong></td><td>Connect user setup to the identity and Microsoft Entra guidance.</td></tr>
-  </tbody>
-</table>
+- Prerequisites en eigenaar van de configuratie.
+- Stapsgewijze setup of beheeractie.
+- Validatie na wijziging.
+- Support- en rollbackpad wanneer iets niet werkt.
+
+{% hint style="info" %}
+Gebruik deze pagina als demo-shape. Een volledige migratie kan de exacte Aiden-stappen en screenshots toevoegen.
+{% endhint %}

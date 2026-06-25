@@ -1,5 +1,5 @@
 ---
-description: "B1ProSuite platform setup, configuration, user management, support, and documentation governance."
+description: "B1ProSuite-platformsetup, configuratie, gebruikersbeheer, support en documentatiegovernance."
 icon: gears
 cover: .gitbook/assets/aiden-cover.svg
 coverY: 0
@@ -9,31 +9,33 @@ layout:
     visible: true
     size: hero
   tableOfContents:
-    visible: false
+    visible: true
   outline:
-    visible: false
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Platform operations
+# B1ProSuite
 
-This space gathers the material that makes Aiden's product portfolio operational: B1ProSuite setup, configuration, identity, support escalation, releases, and governance.
+Deze space verzamelt de content die Aidens productportfolio operationeel maakt: B1ProSuite-installatie, configuratie, identity, supportescalatie, releases en governance.
 
 <table data-view="cards">
   <thead><tr><th width="48"></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
   <tbody>
-    <tr><td><i class="fa-server" style="color:#0E8F72;"></i></td><td><strong>B1ProSuite</strong></td><td>Pre-requirements, installation, first start, license registration, HANA driver creation, and web configuration.</td><td><a href="b1prosuite/overview.md">B1ProSuite overview</a></td></tr>
-    <tr><td><i class="fa-user-shield" style="color:#0E8F72;"></i></td><td><strong>Access and identity</strong></td><td>User creation, Microsoft Entra, portal roles, and access control across POS, WMS, and platform portals.</td><td><a href="access/user-management-and-entra.md">access guidance</a></td></tr>
-    <tr><td><i class="fa-headset" style="color:#0E8F72;"></i></td><td><strong>Support and governance</strong></td><td>Managed Services portal, incidents, change requests, release notes, and documentation operating model.</td><td><a href="access/managed-services-support.md">support model</a></td></tr>
+    <tr><td><i class="fa-server" style="color:#0E8F72;"></i></td><td><strong>B1ProSuite</strong></td><td>Pre-requirements, installatie, eerste start, licentieregistratie, HANA-driver en webconfiguratie.</td><td><a href="b1prosuite/overview.md">overzicht</a></td></tr>
+    <tr><td><i class="fa-user-shield" style="color:#0E8F72;"></i></td><td><strong>Access en identity</strong></td><td>Gebruikers, Microsoft Entra, portalrollen en toegangscontrole voor POS, WMS en platformportalen.</td><td><a href="access/user-management-and-entra.md">accessgids</a></td></tr>
+    <tr><td><i class="fa-headset" style="color:#0E8F72;"></i></td><td><strong>Support en governance</strong></td><td>Managed Services portal, incidenten, wijzigingsverzoeken, release notes en documentatieproces.</td><td><a href="access/managed-services-support.md">supportmodel</a></td></tr>
   </tbody>
 </table>
 
-## Platform setup flow
+## Platform setup-flow
 
 ```mermaid
 flowchart LR
-    Prereq[Pre-requirements] --> Install[Install platform]
-    Install --> Start[First start]
-    Start --> License[Register license]
-    License --> HANA[Create SAP HANA driver]
-    HANA --> Configure[Configure web server and users]
+    Prereq[Pre-requirements] --> Install[Installeer platform]
+    Install --> Start[Eerste start]
+    Start --> License[Registreer licentie]
+    License --> HANA[Maak SAP HANA-driver]
+    HANA --> Configure[Configureer webserver en gebruikers]
 ```

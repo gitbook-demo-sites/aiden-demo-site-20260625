@@ -1,34 +1,27 @@
 ---
-description: "A suggested operating model for Aiden documentation ownership in GitBook."
+description: "Aidens huidige Confluence-model weerspiegelt waarschijnlijk producteigenaarschap. GitBook kan dat behouden en daar review-, publicatie- en analytics-workflows aan toevoegen."
 icon: people-arrows
 ---
 
-# Documentation operating model
+# Documentatie operating model
 
-Aiden's current Confluence model likely reflects product ownership. GitBook can keep that ownership while adding clearer review, publishing, and analytics workflows.
+Aidens huidige Confluence-model weerspiegelt waarschijnlijk producteigenaarschap. GitBook kan dat behouden en daar review-, publicatie- en analytics-workflows aan toevoegen.
 
-## Suggested governance
+## Voorgestelde governance
 
-- Product owners own accuracy for POS, WMS, Bank Connectivity, Aiden Connect, and B1ProSuite areas.
-- A central documentation owner governs navigation, naming, style, redirects, and duplicate-content reduction.
-- Support owns recurring issue feedback and article improvement requests.
-- Implementation partners can receive adaptive or gated deeper setup pages when needed.
-
-## Publishing flow
+- Product owners zijn verantwoordelijk voor accuratesse per productgebied.
+- Een centrale documentatie-eigenaar bewaakt navigatie, naamgeving, redirects en duplicatie.
+- Support levert feedback vanuit terugkerende tickets.
+- Implementatiepartners kunnen later adaptieve of afgeschermde setup-pagina's krijgen.
 
 ```mermaid
 sequenceDiagram
-    participant Author as Product author
+    participant Author as Productauteur
     participant Reviewer as Reviewer
     participant GitBook as GitBook
     participant Support as Support
-    Author->>GitBook: Draft page or change request
-    GitBook->>Reviewer: Request review
-    Reviewer-->>GitBook: Approve or request changes
-    Support->>GitBook: Add feedback from recurring tickets
-    GitBook-->>Author: Publish and track impact
+    Author->>GitBook: Maakt pagina of wijzigingsverzoek
+    GitBook->>Reviewer: Vraagt review
+    Reviewer-->>GitBook: Keurt goed of vraagt aanpassing
+    Support->>GitBook: Voegt feedback uit tickets toe
 ```
-
-{% hint style="info" %}
-This page is useful in the sales demo because it moves the conversation beyond migration and into how Aiden can run documentation as a system.
-{% endhint %}

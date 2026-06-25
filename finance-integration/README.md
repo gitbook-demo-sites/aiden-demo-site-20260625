@@ -1,5 +1,5 @@
 ---
-description: "Bank Connectivity, Aiden Connect, SAP integration, payment files, and operational finance workflows."
+description: "Bank Connectivity, Aiden Connect, SAP-integratie, betaalbestanden en operationele finance-workflows."
 icon: building-columns
 cover: .gitbook/assets/aiden-cover.svg
 coverY: 0
@@ -9,31 +9,33 @@ layout:
     visible: true
     size: hero
   tableOfContents:
-    visible: false
+    visible: true
   outline:
-    visible: false
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Finance and integration
+# Integratieplatformen
 
-This space brings together Aiden's finance and integration surfaces: Bank Connectivity, Aiden Connect, SAP data exchange, Peppol, exchange rates, payment workflows, and integration monitoring.
+Deze space brengt Aidens finance- en integratieoppervlakken samen: Bank Connectivity, Aiden Connect, SAP-data-uitwisseling, Peppol, wisselkoersen, betaalworkflows en integratiemonitoring.
 
 <table data-view="cards">
   <thead><tr><th width="48"></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
   <tbody>
-    <tr><td><i class="fa-building-columns" style="color:#0E8F72;"></i></td><td><strong>Bank Connectivity</strong></td><td>Connect banks, authenticate access, retrieve bank statements, manage organizations, and monitor notifications.</td><td><a href="bank-connectivity/overview.md">bank connectivity</a></td></tr>
-    <tr><td><i class="fa-diagram-project" style="color:#0E8F72;"></i></td><td><strong>Aiden Connect</strong></td><td>Integration services, standard integrations, SAP exchange rates, PDF invoice scanning, and Peppol flows.</td><td><a href="aiden-connect/integration-services.md">integration services</a></td></tr>
-    <tr><td><i class="fa-shield-halved" style="color:#0E8F72;"></i></td><td><strong>Controls</strong></td><td>Prerequisites, security checks, notifications, release notes, and support escalation for business-critical flows.</td><td><a href="controls/prerequisites-and-security.md">controls</a></td></tr>
+    <tr><td><i class="fa-building-columns" style="color:#0E8F72;"></i></td><td><strong>Bank Connectivity</strong></td><td>Verbind banken, authenticeer toegang, haal bankafschriften op, beheer organisaties en monitor notificaties.</td><td><a href="bank-connectivity/overview.md">bank connectivity</a></td></tr>
+    <tr><td><i class="fa-diagram-project" style="color:#0E8F72;"></i></td><td><strong>Aiden Connect</strong></td><td>Integratiediensten, standaardintegraties, SAP-wisselkoersen, PDF-invoicescanning en Peppol-flows.</td><td><a href="aiden-connect/integration-services.md">integratiediensten</a></td></tr>
+    <tr><td><i class="fa-shield-halved" style="color:#0E8F72;"></i></td><td><strong>Controls</strong></td><td>Prerequisites, securitychecks, notificaties, release notes en supportescalatie.</td><td><a href="controls/prerequisites-and-security.md">controls</a></td></tr>
   </tbody>
 </table>
 
-## Finance workflow
+## Finance-workflow
 
 ```mermaid
 flowchart LR
-    Bank[Connect bank] --> Auth[Authenticate connection]
-    Auth --> Statements[Retrieve bank statements]
-    Statements --> SAP[Post to SAP]
-    SAP --> Monitor[Monitor integration]
-    Monitor --> Notify[Notify and resolve exceptions]
+    Bank[Verbind bank] --> Auth[Authenticeer koppeling]
+    Auth --> Statements[Haal bankafschriften op]
+    Statements --> SAP[Boek naar SAP]
+    SAP --> Monitor[Monitor integratie]
+    Monitor --> Notify[Los uitzonderingen op]
 ```

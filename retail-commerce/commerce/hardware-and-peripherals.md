@@ -1,19 +1,19 @@
 ---
-description: "Hardware and peripheral setup patterns for POS and warehouse environments."
+description: "Hardware- en randapparatuurpatronen voor POS- en warehouseomgevingen."
 icon: barcode
 ---
 
-# Hardware and peripherals
+# Hardware en randapparatuur
 
-Hardware guidance should be easy to reach from both POS and warehouse workflows. The source portal already highlights barcode scanner support, hardware settings, and signature pad integration.
+Hardwaregidsen moeten bereikbaar zijn vanuit zowel POS- als warehouseworkflows. De bronportal benoemt al barcode scanner support, hardware-instellingen en signature pad-integratie.
 
-## Covered device areas
+## Gedekte device-gebieden
 
-- Barcode scanners and item lookup behavior.
-- Signature Pad integration with Stepover Simplesigner.
-- POS hardware settings and local device assumptions.
-- Warehouse scanning and field-device prerequisites.
+- Barcode scanners en artikelzoekgedrag.
+- Signature Pad-integratie met Stepover Simplesigner.
+- POS-hardware-instellingen en lokale device-aannames.
+- Warehouse scanning en vereisten voor field devices.
 
 {% hint style="warning" %}
-Deprecated services, such as older local hardware services, should remain documented but clearly labeled with migration guidance and support status.
+Verouderde services, zoals oudere lokale hardwareservices, moeten gedocumenteerd blijven maar duidelijk worden gelabeld met migratieadvies en supportstatus.
 {% endhint %}

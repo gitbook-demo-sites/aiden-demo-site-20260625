@@ -1,20 +1,18 @@
 ---
-description: "Prerequisites and security guidance for Aiden finance and integration workflows."
+description: "Business-kritische finance- en integratiedocumentatie moet prerequisites en trust boundaries expliciet maken."
 icon: shield-halved
 ---
 
-# Prerequisites and security
+# Prerequisites en security
 
-Business-critical finance and integration documentation should make prerequisites and trust boundaries explicit.
+Business-kritische finance- en integratiedocumentatie moet prerequisites en trust boundaries expliciet maken.
 
-## Prerequisite categories
+## Aanbevolen controles
 
-- SAP Business One or SAP ByDesign environment readiness.
-- HTTPS connectivity and network reachability.
-- User role and organization ownership.
-- Bank authorization and authentication renewal model.
-- Data retention, audit, and notification expectations.
+- Bevestig de juiste organisatie, omgeving en gebruikerstoegang.
+- Documenteer eigenaar, afhankelijkheden en uitzonderingen.
+- Link terug naar monitoring, notificaties en supportescalatie.
 
-{% hint style="warning" %}
-Use customer-specific prerequisites during implementation. This page shows the documentation pattern, not a universal security policy.
+{% hint style="info" %}
+Deze pagina is representatief voor de demo. Een volledige migratie kan de exacte Aiden-stappen, screenshots en foutcodes toevoegen.
 {% endhint %}

@@ -1,31 +1,19 @@
 ---
-description: "User management and Microsoft Entra guidance across Aiden products."
+description: "User- en identity-pagina's komen in meerdere bronspaces terug. GitBook kan het gedeelde model centraliseren en productpagina's daarnaar laten linken."
 icon: user-shield
 ---
 
-# User management and Microsoft Entra
+# Gebruikersbeheer en Microsoft Entra
 
-User and identity pages appear in multiple source spaces, including POS and WMS. GitBook should centralize the shared model and link product-specific instructions back to it.
+User- en identity-pagina's komen in meerdere bronspaces terug. GitBook kan het gedeelde model centraliseren en productpagina's daarnaar laten linken.
 
-## Access model
+## Aanbevolen inhoud
 
-```mermaid
-flowchart TD
-    Entra[Microsoft Entra] --> Roles[Portal roles]
-    Roles --> POS[Aiden POS]
-    Roles --> WMS[Aiden WMS]
-    Roles --> Bank[Bank Connectivity]
-    Roles --> B1[B1ProSuite]
-```
+- Prerequisites en eigenaar van de configuratie.
+- Stapsgewijze setup of beheeractie.
+- Validatie na wijziging.
+- Support- en rollbackpad wanneer iets niet werkt.
 
-## Recommended content
-
-- Identity provider prerequisites.
-- Role mapping by product.
-- Admin versus operator permissions.
-- Deprovisioning and audit expectations.
-- Product-specific login troubleshooting.
-
-{% hint style="success" %}
-Shared identity documentation is a simple way to reduce repeated content across product spaces while keeping product pages focused on workflows.
+{% hint style="info" %}
+Gebruik deze pagina als demo-shape. Een volledige migratie kan de exacte Aiden-stappen en screenshots toevoegen.
 {% endhint %}

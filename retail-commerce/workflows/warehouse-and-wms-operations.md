@@ -1,44 +1,44 @@
 ---
-description: "Warehouse and WMS operating guidance for Aiden WMS and WarehousePro."
+description: "Warehouse- en WMS-operatiegids voor Aiden WMS en WarehousePro."
 icon: warehouse
 ---
 
-# Warehouse and WMS operations
+# Warehouse- en WMS-operaties
 
-Aiden's WMS and WarehousePro content can be organized around the warehouse operator journey: sign in, understand definitions, configure settings, convert SAP data, and execute movement.
+Aiden WMS- en WarehousePro-content kan worden georganiseerd rond de reis van de warehouse-operator: inloggen, definities begrijpen, instellingen beheren, SAP-data converteren en bewegingen uitvoeren.
 
-## Warehouse setup sequence
+## Warehouse setup-sequentie
 
 {% stepper %}
 {% step %}
-### Sign in to the WMS client
+### Log in op de WMS-client
 
-Confirm the operator can access the right warehouse environment and role.
+Bevestig dat de operator toegang heeft tot de juiste warehouse-omgeving en rol.
 {% endstep %}
 
 {% step %}
-### Review definitions and settings
+### Controleer definities en instellingen
 
-Use the WMS Management Portal to validate warehouse definitions, business rules, and operational defaults.
+Gebruik de WMS Management Portal om definities, business rules en operationele defaults te valideren.
 {% endstep %}
 
 {% step %}
-### Convert SAP Business One data
+### Converteer SAP Business One-data
 
-Convert stock and bin locations before relying on WMS execution flows.
+Converteer voorraad en binlocaties voordat WMS-uitvoeringsflows worden gebruikt.
 {% endstep %}
 
 {% step %}
-### Run controlled operations
+### Start met gecontroleerde operaties
 
-Start with a limited receiving, picking, movement, or dispatch scenario before expanding to all sites.
+Begin met een beperkte receiving-, picking-, movement- of dispatch-scenario voordat alle locaties worden uitgerold.
 {% endstep %}
 {% endstepper %}
 
-## Related content
+## Gerelateerde content
 
 - WMS Client login.
-- WMS Management Portal definitions and settings.
-- User Management Portal and Microsoft Entra setup.
-- Convert stock from SAP Business One.
-- Convert bin locations from SAP Business One.
+- WMS Management Portal-definities en instellingen.
+- User Management Portal en Microsoft Entra-setup.
+- Voorraad converteren vanuit SAP Business One.
+- Binlocaties converteren vanuit SAP Business One.
