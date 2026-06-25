@@ -51,19 +51,19 @@ GitBook can give Aiden one clearer documentation system for customers, partners,
       <td><i class="fa-store" style="color:#0E8F72;"></i></td>
       <td><strong>Retail and commerce apps</strong></td>
       <td>Aiden POS, RetailPro, WarehousePro, WMS, Proof of Delivery, and Magento templates.</td>
-      <td><a href="https://app.gitbook.com/s/XSPACE_RETAIL/">retail workflows</a></td>
+      <td><a href="https://app.gitbook.com/s/DqwSjKc1rZNdT5YoYuSf/">retail workflows</a></td>
     </tr>
     <tr>
       <td><i class="fa-building-columns" style="color:#0E8F72;"></i></td>
       <td><strong>Finance and integration</strong></td>
       <td>Bank Connectivity, Aiden Connect, payment workflows, SAP integration, Peppol, and monitored data flows.</td>
-      <td><a href="https://app.gitbook.com/s/XSPACE_FINANCE/">finance and integration</a></td>
+      <td><a href="https://app.gitbook.com/s/Y7rFrXdON9rXdRex3MXE/">finance and integration</a></td>
     </tr>
     <tr>
       <td><i class="fa-gears" style="color:#0E8F72;"></i></td>
       <td><strong>Platform operations</strong></td>
       <td>B1ProSuite setup, identity, user management, support escalation, releases, and governance model.</td>
-      <td><a href="https://app.gitbook.com/s/XSPACE_PLATFORM/">platform operations</a></td>
+      <td><a href="https://app.gitbook.com/s/PG5nc9B9vXjvJ34jaotJ/">platform operations</a></td>
     </tr>
   </tbody>
 </table>

@@ -39,5 +39,5 @@ flowchart LR
 ```
 
 {% hint style="info" %}
-For bank statements, payment files, and SAP integration paths, continue in [Finance and Integration](https://app.gitbook.com/s/XSPACE_FINANCE/).
+For bank statements, payment files, and SAP integration paths, continue in [Finance and Integration](https://app.gitbook.com/s/Y7rFrXdON9rXdRex3MXE/).
 {% endhint %}
