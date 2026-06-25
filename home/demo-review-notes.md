@@ -1,22 +1,23 @@
 ---
-description: "Reviewnotities voor de Aiden GitBook-demo."
+description: "Review notes for the Aiden GitBook demo."
 icon: clipboard-check
 ---
 
-# Reviewnotities demo
+# Demo Review Notes
 
-## Aangepast in deze feedbackronde
+## Adjusted in this feedback round
 
-- De space-landingspagina's tonen de inhoudsopgave/navigatie weer in plaats van die te verbergen.
-- De content is naar Nederlands vertaald.
-- De site-navigatie is georganiseerd met een sectiegroep `Productgebieden`, met daaronder Brancheoplossingen, Integratieplatformen en B1ProSuite.
+- The homepage now uses the same English/Dutch variant model as the product documentation sections.
+- The default Home variant is English-only.
+- A Dutch Home variant is attached under the same top-nav Home section.
+- The product sections remain organized as Retail & Commerce Apps, Finance & Integration, and Platform Operations.
 
-## Beste plekken voor feedback
+## Best places for feedback
 
-- Of de drie groepen precies aansluiten op de manier waarop Aiden het portfolio wil uitleggen.
-- Welk product het sterkste live demopad moet zijn: POS, Bank Connectivity of Aiden Connect.
-- Of implementatiepartners een aparte adaptive view nodig hebben met diepere SAP-setup en integratievoorwaarden.
+- Whether the three groups match how Aiden wants to explain its portfolio.
+- Which product should be the strongest live demo path: POS, Bank Connectivity, or Aiden Connect.
+- Whether implementation partners need a separate adaptive view with deeper SAP setup and integration prerequisites.
 
 {% hint style="warning" %}
-Dit is een representatieve demo, geen volledige migratie. De long-tail Confluence-artikelen kunnen later worden geimporteerd of geconverteerd zodra Aiden de doelstructuur bevestigt.
+This is a representative demo, not a complete migration. The long-tail Confluence articles can be imported or converted later once Aiden confirms the target structure.
 {% endhint %}
