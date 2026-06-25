@@ -1,0 +1,754 @@
+{
+  "site": {
+    "object": "site",
+    "id": "site_jxEAD",
+    "type": "ultimate",
+    "appliedType": "ultimate",
+    "title": "Aiden Documentation Hub Demo",
+    "icon": {
+      "icon": {
+        "dark": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256",
+        "light": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256"
+      }
+    },
+    "basename": "aiden-documentation-hub-demo",
+    "visibility": "share-link",
+    "permissionsModel": "site",
+    "defaultLevel": null,
+    "published": false,
+    "createdAt": "2026-06-25T20:02:40.000Z",
+    "siteSpaces": 4,
+    "features": [
+      {
+        "id": "sites-share-links",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-ai-assistant",
+        "plan": "ultimate",
+        "frozen": false
+      },
+      {
+        "id": "sites-pdf-export",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-page-feedback",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-sections",
+        "plan": "ultimate",
+        "frozen": false
+      }
+    ],
+    "urls": {
+      "location": "/orgs/0vDYY0rf3o3tZt0oENv8/sites/site_jxEAD",
+      "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/sites/site_jxEAD",
+      "preview": "https://sites.gitbook.com/preview/site_jxEAD/"
+    }
+  },
+  "repo": "https://github.com/gitbook-demo-sites/aiden-demo-site-20260625",
+  "spaces": {
+    "home": {
+      "title": "Home",
+      "emoji": "270f",
+      "dir": "home",
+      "section": "Home",
+      "icon": "house",
+      "description": "Executive entry point and recommended GitBook architecture for Aiden.",
+      "space": {
+        "object": "space",
+        "id": "TyQv5Wb5rGByMAmTaiQy",
+        "title": "Home",
+        "emoji": "270f",
+        "visibility": "private",
+        "createdAt": "2026-06-25T20:02:42.668Z",
+        "updatedAt": "2026-06-25T20:02:42.604Z",
+        "editMode": "locked",
+        "internal_poweredByV2": true,
+        "internal_singleWebsocket": true,
+        "urls": {
+          "location": "/spaces/TyQv5Wb5rGByMAmTaiQy",
+          "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/TyQv5Wb5rGByMAmTaiQy/"
+        },
+        "organization": "0vDYY0rf3o3tZt0oENv8",
+        "revision": "lTqABQ2JoneQE5zermxp",
+        "defaultLevel": "inherit",
+        "comments": 0,
+        "changeRequests": 0,
+        "changeRequestsDraft": 0,
+        "changeRequestsOpen": 0,
+        "permissions": {
+          "view": true,
+          "access": true,
+          "admin": true,
+          "viewInviteLinks": true,
+          "edit": true,
+          "triggerGitSync": true,
+          "comment": true,
+          "merge": true,
+          "review": true,
+          "installIntegration": true
+        },
+        "mergeRules": {
+          "type": "inherit"
+        }
+      },
+      "section_obj": {
+        "object": "site-section",
+        "id": "sitesc_KuF46",
+        "icon": "house",
+        "title": "Home",
+        "path": "home",
+        "default": true,
+        "draft": false,
+        "siteSpaces": [
+          {
+            "object": "site-space",
+            "id": "sitesp_A0YCV",
+            "path": "home",
+            "default": true,
+            "section": "sitesc_KuF46",
+            "space": {
+              "object": "space",
+              "id": "TyQv5Wb5rGByMAmTaiQy",
+              "title": "Home",
+              "emoji": "270f",
+              "visibility": "private",
+              "createdAt": "2026-06-25T20:02:42.668Z",
+              "updatedAt": "2026-06-25T20:02:42.604Z",
+              "editMode": "locked",
+              "internal_poweredByV2": true,
+              "internal_singleWebsocket": true,
+              "urls": {
+                "location": "/spaces/TyQv5Wb5rGByMAmTaiQy",
+                "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/TyQv5Wb5rGByMAmTaiQy/"
+              },
+              "organization": "0vDYY0rf3o3tZt0oENv8",
+              "revision": "lTqABQ2JoneQE5zermxp",
+              "defaultLevel": "inherit",
+              "comments": 0,
+              "changeRequests": 0,
+              "changeRequestsDraft": 0,
+              "changeRequestsOpen": 0,
+              "permissions": {
+                "view": true,
+                "access": true,
+                "admin": true,
+                "viewInviteLinks": true,
+                "edit": true,
+                "triggerGitSync": true,
+                "comment": true,
+                "merge": true,
+                "review": true,
+                "installIntegration": true
+              },
+              "mergeRules": {
+                "type": "inherit"
+              }
+            },
+            "title": "Home",
+            "draft": false,
+            "hasAdvancedCustomizationFeature": false,
+            "urls": {},
+            "hidden": false
+          }
+        ],
+        "urls": {}
+      }
+    },
+    "retail": {
+      "title": "Retail & Commerce Apps",
+      "emoji": "1f3ea",
+      "dir": "retail-commerce",
+      "section": "Retail & Commerce Apps",
+      "icon": "store",
+      "description": "Aiden POS, WMS, WarehousePro, Proof of Delivery, RetailPro, and Magento workflows.",
+      "space": {
+        "object": "space",
+        "id": "DqwSjKc1rZNdT5YoYuSf",
+        "title": "Retail & Commerce Apps",
+        "emoji": "1f3ea",
+        "visibility": "private",
+        "createdAt": "2026-06-25T20:02:47.451Z",
+        "updatedAt": "2026-06-25T20:02:46.495Z",
+        "editMode": "locked",
+        "internal_poweredByV2": true,
+        "internal_singleWebsocket": true,
+        "urls": {
+          "location": "/spaces/DqwSjKc1rZNdT5YoYuSf",
+          "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/DqwSjKc1rZNdT5YoYuSf/"
+        },
+        "organization": "0vDYY0rf3o3tZt0oENv8",
+        "revision": "ORMWQax7wPAuhJ6IqrNb",
+        "defaultLevel": "inherit",
+        "comments": 0,
+        "changeRequests": 0,
+        "changeRequestsDraft": 0,
+        "changeRequestsOpen": 0,
+        "permissions": {
+          "view": true,
+          "access": true,
+          "admin": true,
+          "viewInviteLinks": true,
+          "edit": true,
+          "triggerGitSync": true,
+          "comment": true,
+          "merge": true,
+          "review": true,
+          "installIntegration": true
+        },
+        "mergeRules": {
+          "type": "inherit"
+        }
+      },
+      "section_obj": {
+        "object": "site-section",
+        "id": "sitesc_0yjX3",
+        "icon": "store",
+        "title": "Retail & Commerce Apps",
+        "path": "retail-and-commerce-apps",
+        "default": false,
+        "draft": false,
+        "siteSpaces": [
+          {
+            "object": "site-space",
+            "id": "sitesp_VavZJ",
+            "path": "retail-and-commerce-apps",
+            "default": true,
+            "section": "sitesc_0yjX3",
+            "space": {
+              "object": "space",
+              "id": "DqwSjKc1rZNdT5YoYuSf",
+              "title": "Retail & Commerce Apps",
+              "emoji": "1f3ea",
+              "visibility": "private",
+              "createdAt": "2026-06-25T20:02:47.451Z",
+              "updatedAt": "2026-06-25T20:02:46.495Z",
+              "editMode": "locked",
+              "internal_poweredByV2": true,
+              "internal_singleWebsocket": true,
+              "urls": {
+                "location": "/spaces/DqwSjKc1rZNdT5YoYuSf",
+                "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/DqwSjKc1rZNdT5YoYuSf/"
+              },
+              "organization": "0vDYY0rf3o3tZt0oENv8",
+              "revision": "ORMWQax7wPAuhJ6IqrNb",
+              "defaultLevel": "inherit",
+              "comments": 0,
+              "changeRequests": 0,
+              "changeRequestsDraft": 0,
+              "changeRequestsOpen": 0,
+              "permissions": {
+                "view": true,
+                "access": true,
+                "admin": true,
+                "viewInviteLinks": true,
+                "edit": true,
+                "triggerGitSync": true,
+                "comment": true,
+                "merge": true,
+                "review": true,
+                "installIntegration": true
+              },
+              "mergeRules": {
+                "type": "inherit"
+              }
+            },
+            "title": "Retail & Commerce Apps",
+            "draft": false,
+            "hasAdvancedCustomizationFeature": false,
+            "urls": {},
+            "hidden": false
+          }
+        ],
+        "urls": {}
+      }
+    },
+    "finance": {
+      "title": "Finance & Integration",
+      "emoji": "1f3e6",
+      "dir": "finance-integration",
+      "section": "Finance & Integration",
+      "icon": "building-columns",
+      "description": "Bank Connectivity, Aiden Connect, SAP integration, payments, and monitored data flows.",
+      "space": {
+        "object": "space",
+        "id": "Y7rFrXdON9rXdRex3MXE",
+        "title": "Finance & Integration",
+        "emoji": "1f3e6",
+        "visibility": "private",
+        "createdAt": "2026-06-25T20:02:54.374Z",
+        "updatedAt": "2026-06-25T20:02:54.338Z",
+        "editMode": "locked",
+        "internal_poweredByV2": true,
+        "internal_singleWebsocket": true,
+        "urls": {
+          "location": "/spaces/Y7rFrXdON9rXdRex3MXE",
+          "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/Y7rFrXdON9rXdRex3MXE/"
+        },
+        "organization": "0vDYY0rf3o3tZt0oENv8",
+        "revision": "S8lRjRtQBv0aH8FfIeGv",
+        "defaultLevel": "inherit",
+        "comments": 0,
+        "changeRequests": 0,
+        "changeRequestsDraft": 0,
+        "changeRequestsOpen": 0,
+        "permissions": {
+          "view": true,
+          "access": true,
+          "admin": true,
+          "viewInviteLinks": true,
+          "edit": true,
+          "triggerGitSync": true,
+          "comment": true,
+          "merge": true,
+          "review": true,
+          "installIntegration": true
+        },
+        "mergeRules": {
+          "type": "inherit"
+        }
+      },
+      "section_obj": {
+        "object": "site-section",
+        "id": "sitesc_xg1yf",
+        "icon": "building-columns",
+        "title": "Finance & Integration",
+        "path": "finance-and-integration",
+        "default": false,
+        "draft": false,
+        "siteSpaces": [
+          {
+            "object": "site-space",
+            "id": "sitesp_yiPpp",
+            "path": "finance-and-integration",
+            "default": true,
+            "section": "sitesc_xg1yf",
+            "space": {
+              "object": "space",
+              "id": "Y7rFrXdON9rXdRex3MXE",
+              "title": "Finance & Integration",
+              "emoji": "1f3e6",
+              "visibility": "private",
+              "createdAt": "2026-06-25T20:02:54.374Z",
+              "updatedAt": "2026-06-25T20:02:54.338Z",
+              "editMode": "locked",
+              "internal_poweredByV2": true,
+              "internal_singleWebsocket": true,
+              "urls": {
+                "location": "/spaces/Y7rFrXdON9rXdRex3MXE",
+                "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/Y7rFrXdON9rXdRex3MXE/"
+              },
+              "organization": "0vDYY0rf3o3tZt0oENv8",
+              "revision": "S8lRjRtQBv0aH8FfIeGv",
+              "defaultLevel": "inherit",
+              "comments": 0,
+              "changeRequests": 0,
+              "changeRequestsDraft": 0,
+              "changeRequestsOpen": 0,
+              "permissions": {
+                "view": true,
+                "access": true,
+                "admin": true,
+                "viewInviteLinks": true,
+                "edit": true,
+                "triggerGitSync": true,
+                "comment": true,
+                "merge": true,
+                "review": true,
+                "installIntegration": true
+              },
+              "mergeRules": {
+                "type": "inherit"
+              }
+            },
+            "title": "Finance & Integration",
+            "draft": false,
+            "hasAdvancedCustomizationFeature": false,
+            "urls": {},
+            "hidden": false
+          }
+        ],
+        "urls": {}
+      }
+    },
+    "platform": {
+      "title": "Platform Operations",
+      "emoji": "2699",
+      "dir": "platform-operations",
+      "section": "Platform Operations",
+      "icon": "gears",
+      "description": "B1ProSuite setup, identity, user management, support, and documentation governance.",
+      "space": {
+        "object": "space",
+        "id": "PG5nc9B9vXjvJ34jaotJ",
+        "title": "Platform Operations",
+        "emoji": "2699",
+        "visibility": "private",
+        "createdAt": "2026-06-25T20:02:57.798Z",
+        "updatedAt": "2026-06-25T20:02:57.727Z",
+        "editMode": "locked",
+        "internal_poweredByV2": true,
+        "internal_singleWebsocket": true,
+        "urls": {
+          "location": "/spaces/PG5nc9B9vXjvJ34jaotJ",
+          "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/PG5nc9B9vXjvJ34jaotJ/"
+        },
+        "organization": "0vDYY0rf3o3tZt0oENv8",
+        "revision": "phGdiMOAUOOQPM04mBme",
+        "defaultLevel": "inherit",
+        "comments": 0,
+        "changeRequests": 0,
+        "changeRequestsDraft": 0,
+        "changeRequestsOpen": 0,
+        "permissions": {
+          "view": true,
+          "access": true,
+          "admin": true,
+          "viewInviteLinks": true,
+          "edit": true,
+          "triggerGitSync": true,
+          "comment": true,
+          "merge": true,
+          "review": true,
+          "installIntegration": true
+        },
+        "mergeRules": {
+          "type": "inherit"
+        }
+      },
+      "section_obj": {
+        "object": "site-section",
+        "id": "sitesc_EK5J6",
+        "icon": "gears",
+        "title": "Platform Operations",
+        "path": "platform-operations",
+        "default": false,
+        "draft": false,
+        "siteSpaces": [
+          {
+            "object": "site-space",
+            "id": "sitesp_vInq6",
+            "path": "platform-operations",
+            "default": true,
+            "section": "sitesc_EK5J6",
+            "space": {
+              "object": "space",
+              "id": "PG5nc9B9vXjvJ34jaotJ",
+              "title": "Platform Operations",
+              "emoji": "2699",
+              "visibility": "private",
+              "createdAt": "2026-06-25T20:02:57.798Z",
+              "updatedAt": "2026-06-25T20:02:57.727Z",
+              "editMode": "locked",
+              "internal_poweredByV2": true,
+              "internal_singleWebsocket": true,
+              "urls": {
+                "location": "/spaces/PG5nc9B9vXjvJ34jaotJ",
+                "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/PG5nc9B9vXjvJ34jaotJ/"
+              },
+              "organization": "0vDYY0rf3o3tZt0oENv8",
+              "revision": "phGdiMOAUOOQPM04mBme",
+              "defaultLevel": "inherit",
+              "comments": 0,
+              "changeRequests": 0,
+              "changeRequestsDraft": 0,
+              "changeRequestsOpen": 0,
+              "permissions": {
+                "view": true,
+                "access": true,
+                "admin": true,
+                "viewInviteLinks": true,
+                "edit": true,
+                "triggerGitSync": true,
+                "comment": true,
+                "merge": true,
+                "review": true,
+                "installIntegration": true
+              },
+              "mergeRules": {
+                "type": "inherit"
+              }
+            },
+            "title": "Platform Operations",
+            "draft": false,
+            "hasAdvancedCustomizationFeature": false,
+            "urls": {},
+            "hidden": false
+          }
+        ],
+        "urls": {}
+      }
+    }
+  },
+  "share": {
+    "object": "share-link",
+    "id": "HiIk2Gd1PMYrT274U0JG",
+    "createdAt": "2026-06-25T20:03:04.000Z",
+    "name": "Sales demo review",
+    "active": true,
+    "urls": {}
+  },
+  "structure": {
+    "type": "sections",
+    "structure": [
+      {
+        "object": "site-section",
+        "id": "sitesc_KuF46",
+        "icon": "house",
+        "title": "Home",
+        "description": "Executive entry point and recommended GitBook architecture for Aiden.",
+        "path": "home",
+        "default": true,
+        "draft": false,
+        "siteSpaces": [
+          {
+            "object": "site-space",
+            "id": "sitesp_A0YCV",
+            "path": "home",
+            "default": true,
+            "section": "sitesc_KuF46",
+            "space": {
+              "object": "space",
+              "id": "TyQv5Wb5rGByMAmTaiQy",
+              "title": "Home",
+              "emoji": "270f",
+              "visibility": "private",
+              "createdAt": "2026-06-25T20:02:42.668Z",
+              "updatedAt": "2026-06-25T20:02:42.604Z",
+              "editMode": "locked",
+              "internal_poweredByV2": true,
+              "internal_singleWebsocket": true,
+              "urls": {
+                "location": "/spaces/TyQv5Wb5rGByMAmTaiQy",
+                "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/TyQv5Wb5rGByMAmTaiQy/"
+              },
+              "organization": "0vDYY0rf3o3tZt0oENv8",
+              "revision": "lTqABQ2JoneQE5zermxp",
+              "defaultLevel": "inherit",
+              "comments": 0,
+              "changeRequests": 0,
+              "changeRequestsDraft": 0,
+              "changeRequestsOpen": 0,
+              "permissions": {
+                "view": true,
+                "access": true,
+                "admin": true,
+                "viewInviteLinks": true,
+                "edit": true,
+                "triggerGitSync": true,
+                "comment": true,
+                "merge": true,
+                "review": true,
+                "installIntegration": true
+              },
+              "mergeRules": {
+                "type": "inherit"
+              }
+            },
+            "title": "Home",
+            "draft": false,
+            "hasAdvancedCustomizationFeature": false,
+            "urls": {},
+            "hidden": false
+          }
+        ],
+        "urls": {}
+      },
+      {
+        "object": "site-section",
+        "id": "sitesc_0yjX3",
+        "icon": "store",
+        "title": "Retail & Commerce Apps",
+        "description": "Aiden POS, WMS, WarehousePro, Proof of Delivery, RetailPro, and Magento workflows.",
+        "path": "retail-and-commerce-apps",
+        "default": false,
+        "draft": false,
+        "siteSpaces": [
+          {
+            "object": "site-space",
+            "id": "sitesp_VavZJ",
+            "path": "retail-and-commerce-apps",
+            "default": true,
+            "section": "sitesc_0yjX3",
+            "space": {
+              "object": "space",
+              "id": "DqwSjKc1rZNdT5YoYuSf",
+              "title": "Retail & Commerce Apps",
+              "emoji": "1f3ea",
+              "visibility": "private",
+              "createdAt": "2026-06-25T20:02:47.451Z",
+              "updatedAt": "2026-06-25T20:02:46.495Z",
+              "editMode": "locked",
+              "internal_poweredByV2": true,
+              "internal_singleWebsocket": true,
+              "urls": {
+                "location": "/spaces/DqwSjKc1rZNdT5YoYuSf",
+                "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/DqwSjKc1rZNdT5YoYuSf/"
+              },
+              "organization": "0vDYY0rf3o3tZt0oENv8",
+              "revision": "ORMWQax7wPAuhJ6IqrNb",
+              "defaultLevel": "inherit",
+              "comments": 0,
+              "changeRequests": 0,
+              "changeRequestsDraft": 0,
+              "changeRequestsOpen": 0,
+              "permissions": {
+                "view": true,
+                "access": true,
+                "admin": true,
+                "viewInviteLinks": true,
+                "edit": true,
+                "triggerGitSync": true,
+                "comment": true,
+                "merge": true,
+                "review": true,
+                "installIntegration": true
+              },
+              "mergeRules": {
+                "type": "inherit"
+              }
+            },
+            "title": "Retail & Commerce Apps",
+            "draft": false,
+            "hasAdvancedCustomizationFeature": false,
+            "urls": {},
+            "hidden": false
+          }
+        ],
+        "urls": {}
+      },
+      {
+        "object": "site-section",
+        "id": "sitesc_xg1yf",
+        "icon": "building-columns",
+        "title": "Finance & Integration",
+        "description": "Bank Connectivity, Aiden Connect, SAP integration, payments, and monitored data flows.",
+        "path": "finance-and-integration",
+        "default": false,
+        "draft": false,
+        "siteSpaces": [
+          {
+            "object": "site-space",
+            "id": "sitesp_yiPpp",
+            "path": "finance-and-integration",
+            "default": true,
+            "section": "sitesc_xg1yf",
+            "space": {
+              "object": "space",
+              "id": "Y7rFrXdON9rXdRex3MXE",
+              "title": "Finance & Integration",
+              "emoji": "1f3e6",
+              "visibility": "private",
+              "createdAt": "2026-06-25T20:02:54.374Z",
+              "updatedAt": "2026-06-25T20:02:54.338Z",
+              "editMode": "locked",
+              "internal_poweredByV2": true,
+              "internal_singleWebsocket": true,
+              "urls": {
+                "location": "/spaces/Y7rFrXdON9rXdRex3MXE",
+                "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/Y7rFrXdON9rXdRex3MXE/"
+              },
+              "organization": "0vDYY0rf3o3tZt0oENv8",
+              "revision": "S8lRjRtQBv0aH8FfIeGv",
+              "defaultLevel": "inherit",
+              "comments": 0,
+              "changeRequests": 0,
+              "changeRequestsDraft": 0,
+              "changeRequestsOpen": 0,
+              "permissions": {
+                "view": true,
+                "access": true,
+                "admin": true,
+                "viewInviteLinks": true,
+                "edit": true,
+                "triggerGitSync": true,
+                "comment": true,
+                "merge": true,
+                "review": true,
+                "installIntegration": true
+              },
+              "mergeRules": {
+                "type": "inherit"
+              }
+            },
+            "title": "Finance & Integration",
+            "draft": false,
+            "hasAdvancedCustomizationFeature": false,
+            "urls": {},
+            "hidden": false
+          }
+        ],
+        "urls": {}
+      },
+      {
+        "object": "site-section",
+        "id": "sitesc_EK5J6",
+        "icon": "gears",
+        "title": "Platform Operations",
+        "description": "B1ProSuite setup, identity, user management, support, and documentation governance.",
+        "path": "platform-operations",
+        "default": false,
+        "draft": false,
+        "siteSpaces": [
+          {
+            "object": "site-space",
+            "id": "sitesp_vInq6",
+            "path": "platform-operations",
+            "default": true,
+            "section": "sitesc_EK5J6",
+            "space": {
+              "object": "space",
+              "id": "PG5nc9B9vXjvJ34jaotJ",
+              "title": "Platform Operations",
+              "emoji": "2699",
+              "visibility": "private",
+              "createdAt": "2026-06-25T20:02:57.798Z",
+              "updatedAt": "2026-06-25T20:02:57.727Z",
+              "editMode": "locked",
+              "internal_poweredByV2": true,
+              "internal_singleWebsocket": true,
+              "urls": {
+                "location": "/spaces/PG5nc9B9vXjvJ34jaotJ",
+                "app": "https://app.gitbook.com/o/0vDYY0rf3o3tZt0oENv8/s/PG5nc9B9vXjvJ34jaotJ/"
+              },
+              "organization": "0vDYY0rf3o3tZt0oENv8",
+              "revision": "phGdiMOAUOOQPM04mBme",
+              "defaultLevel": "inherit",
+              "comments": 0,
+              "changeRequests": 0,
+              "changeRequestsDraft": 0,
+              "changeRequestsOpen": 0,
+              "permissions": {
+                "view": true,
+                "access": true,
+                "admin": true,
+                "viewInviteLinks": true,
+                "edit": true,
+                "triggerGitSync": true,
+                "comment": true,
+                "merge": true,
+                "review": true,
+                "installIntegration": true
+              },
+              "mergeRules": {
+                "type": "inherit"
+              }
+            },
+            "title": "Platform Operations",
+            "draft": false,
+            "hasAdvancedCustomizationFeature": false,
+            "urls": {},
+            "hidden": false
+          }
+        ],
+        "urls": {}
+      }
+    ]
+  }
+}
